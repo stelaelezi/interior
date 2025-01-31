@@ -264,10 +264,19 @@ footer {
   padding-top: 10px;
 }
 .contact-us a {
-  padding-left: 10px;
+  padding-left: 15px;
   font-size: 20px;
   font-weight: 400;
 }
 
+.container-icon {
+  margin-left: -11px;
+}
 .container-icon svg {
+  margin: 10px;
+}
+
+.border {
+  border-left: 2px solid var(--color-secondary);
+  margin: 10px;
 }
