@@ -1,0 +1,75 @@
+:root {
+  --color-primary: #000000;
+  --color-secondary: white;
+  --color-button: #dc6445;
+  --color-footer: #264c4d;
+  --color-section: #fbefec;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-family: Inter;
+}
+
+.logo {
+  display: flex;
+  margin-left: 260px;
+  margin-top: 26px;
+}
+
+.logo p {
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+.logo a {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--color-primary);
+  margin-top: 10px;
+  margin-left: 700px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-content {
+  max-width: 480px;
+  padding: 90px;
+  margin-left: 80px;
+}
+
+.hero h1 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 67px;
+}
+
+.hero p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-right: 51px;
+}
+
+.hero button {
+  background-color: var(--color-button);
+  color: var(--color-secondary);
+  border: none;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 14px 32px;
+  margin-top: 10px;
+  line-height: 24px;
+  cursor: pointer;
+}
