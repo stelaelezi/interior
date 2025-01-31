@@ -36,6 +36,11 @@ button {
   margin-top: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
 .logo {
   display: flex;
   justify-content: space-between;
@@ -57,12 +62,11 @@ button {
 }
 
 .logo a {
+  color: var(--color-primary);
   display: flex;
   font-family: Lato;
   font-size: 18px;
   font-weight: 500;
-  text-decoration: none;
-  color: var(--color-primary);
   margin-left: auto;
   margin-right: 300px;
 }
@@ -219,24 +223,51 @@ footer {
 }
 
 .description {
+  max-width: 560px;
   color: var(--color-secondary);
   font-weight: 300;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   position: absolute;
-  right: 0px;
-  top: 50%;
+  line-height: 24px;
+  right: 10%;
+  top: 40%;
 }
 
 .links {
-  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 35%;
+  margin-bottom: 13px;
 }
 
 .links a {
-  text-decoration: none;
-  color: var(--color-secondary);
-  /* margin: 0px 25px 0px 25px; */
   letter-spacing: 2px;
   font-family: Inter;
   font-weight: 300;
   font-size: 16px;
+}
+
+.data {
+  max-width: 300px;
+  height: 170px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  padding-top: 5px;
+}
+.interior {
+  color: var(--color-secondary);
+  margin: auto;
+}
+.contact-us {
+  display: flex;
+  padding-top: 10px;
+}
+.contact-us a {
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container-icon svg {
 }
