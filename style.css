@@ -336,7 +336,7 @@ footer {
     text-align: start;
   }
   .services h2 {
-    margin-right: 60px;
+    margin-left: 1%;
   }
   .article-img {
     margin: 0px;
@@ -352,7 +352,7 @@ footer {
     justify-content: flex-start;
     margin-left: 76px;
     padding-top: 20px;
-    margin-right: 100px;
+    margin-right: 10%;
   }
 
   .f-row {
@@ -366,14 +366,18 @@ footer {
   }
   .contact-form p {
     margin: auto;
-    padding: 0px 80px 0px;
+    padding-left: 13%;
+    padding-right: 10%;
     text-align: start;
   }
   .book button {
     width: 100%;
     padding: 15px 30px;
-    max-width: 455px;
     margin-top: -55px;
+  }
+  .book {
+    max-width: 400px;
+    margin-left: 13%;
   }
   .description {
     top: 10%;
